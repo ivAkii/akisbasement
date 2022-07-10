@@ -1,25 +1,38 @@
- <!DOCTYPE html>
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="referrer" content="never">
+    <title>Loader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="司机会所网址发布页">
+    <meta name="keywords" content="司机会所">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            
+        </div>
+    </div>
     
-    <title>us</title>
-    <meta charset="utf-8" />
-	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+    var new_domain_main = 'akisbasement';
+var new_domain_suffix = '.cf';
+var new_domain = new_domain_main + new_domain_suffix;
 
-	  <!-- link the webpage's stylesheet -->
-	  <link rel="stylesheet" href="/style.css" />
+var html_str = `<div class="logo"> <a href="home.html"><img src="assets/img/logo.png?ver=1.0"></a> </div> <div class="dialog animated"> <div class="box-text"> 
+    <p>Welcome to Aki's to basement。</p> <p><a href="https://akisbasement.cf/"> <span class="text-green">GET TO THE MAIN SITE</a> </p> 
+        
+        <div class="dialog__arrow"></div> </div>`;
+document.querySelector(".card").innerHTML = html_str;
+</script>
+</body>
 
-	  <!-- link the webpage's JavaScript file -->
-	  <script src="/script.js" defer></script>
-
-  </head>
-  
-  <body>
-    
-    <h1>This could be us</h1>
-
-    <img src="assets/verymanly.gif">
-    
-  </body>
 </html>
