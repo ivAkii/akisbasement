@@ -35,7 +35,7 @@ img {
 
 
 h1{
-    font-size:auto;
+  font-size: calc(2em + 1vmin);
     margin: 0;
     color: #000000;
     
