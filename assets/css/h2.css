@@ -326,4 +326,9 @@ body::-webkit-scrollbar {
     padding: 2px 16px;
     text-align: left;
   }
+
+  .aa{
+    -webkit-text-size-adjust: auto;
+
+  }
   
